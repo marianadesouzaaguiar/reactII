@@ -1,0 +1,31 @@
+
+ul{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color:blueviolet;
+}
+
+li{
+    margin-top: 10px;
+
+}
+
+input{
+    height: 15%;
+    margin-top: 40px;
+}
+
+.title, .subtitle{
+    text-align: center;
+    color:blueviolet;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
