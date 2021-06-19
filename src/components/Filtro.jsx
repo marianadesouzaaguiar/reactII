@@ -32,9 +32,9 @@ const Filtro = () =>{
 
     return(
         <>        
-            <h2 class="subtitle">{usuario.login}</h2>
+            <h2 className="subtitle">{usuario.login}</h2>
 
-        <section class="flex">
+        <section className="flex">
 
         <img src ={usuario.avatar} alt={usuario.login} height="350px" width="450px"/>
         
@@ -43,7 +43,7 @@ const Filtro = () =>{
 
              {filtroRepositorios.map(repositorio=> (
                 <div key={repositorio.id}>
-                   <ul class="repos">
+                   <ul className="repos">
                        <li>{repositorio.name}</li>
                    </ul>
                 </div>
